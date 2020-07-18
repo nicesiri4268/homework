@@ -1,0 +1,126 @@
+.title {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.title div {
+    width: 1200px;
+    height: 80px;
+    position: absolute;
+}
+
+.title div ul {
+    width: 980px;
+    height: 40px;
+    position: absolute;
+    left: 110px;
+    top: 20px;
+}
+
+.title div li {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    float: right;
+}
+
+.body {
+    width: 1200px;
+    min-height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.body .Bleft {
+    width: 150px;
+    min-height: 780px;
+    margin: 10px 0;
+    position: absolute;
+    left: 10px;
+    border: 2px black solid;
+}
+
+.body .Bleft div {
+    width: 130px;
+    min-height: 18px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.body .Bleft div ul {
+    width: 130px;
+    height: 30px;
+    display: none;
+}
+
+.body .Bleft div:hover ul {
+    display: initial;
+}
+
+.body .Btitle {
+    width: 1020px;
+    height: 80px;
+    position: absolute;
+    left: 170px;
+    margin: 10px 0;
+    border: 2px black solid;
+}
+
+.body .Btitle div {
+    width: 1000px;
+    height: 60px;
+    padding: 10px;
+}
+
+.body .Btitle div ul {
+    width: 980px;
+    height: 40px;
+    margin: 0px auto;
+}
+
+.body .Btitle div ul li {
+    min-width: 100px;
+    max-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    float: left;
+}
+
+.body .Bbody {
+    width: 1020px;
+    min-height: 690px;
+    position: absolute;
+    left: 170px;
+    top: 100px;
+    margin-bottom: 10px;
+    border: 2px black solid;
+}
+
+.body .Bbody div {
+    width: 1000px;
+    height: 40px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.body .Bbody div ul {
+    width: 980px;
+    height: 30px;
+    margin: 0 auto;
+    border: 2px black solid;
+}
+
+.body .Bbody div ul li {
+    min-width: 100px;
+    max-width: 1200px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    float: left;
+}
